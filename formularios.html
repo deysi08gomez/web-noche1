@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+<input type="checkbox" id="p2"checked disabled> <label for="p2">comer</label><br>
+<input type="submit" id="p3"><label for="p3">dormir</label><br>
+<input type="submit" value="guardar">
+<br>
+<label for="">contraseña</label>
+<input type="password" requiered placeholder="son 4 digitos" maxlength="4">
+    </form>
+    <h2>Aqui vienen las listas desplegables</h2>
+    <form action="https://google.com">
+    <fieldset title="listas desplegables">
+   <legend>deportes</legend>
+ <select required> 
+    <option value="">seleccione un deporte</option>
+    <option value="d1">Futbol</option>
+    <option value="d2" selected>Voleibol</option>
+    <option value="d3" disabled>Beisbol</option>
+ </select>
+   </fieldset>
+   <fieldset>
+    <legend>ubicacion</legend>
+    <select>
+        <optgroup label="cundinamarca">
+       <option value="funza"></option>
+       <option value="mosquera"></option>
+       <option value="chia"></option>
+        </optgroup>
+    <optgroup label="cesar">
+        <option value="">Valledupar</option>
+        <option value="">Bosconia</option>
+        <option value="">Aguachica</option>
+    </optgroup>
+    </select> 
+    <br>
+    <label for="obs">descripcion</label><br>
+    <textarea id="des" rows="20"></textarea>
+   </fieldset>
+   <input type="submit" value="enviar">
+   <input type="reset" value="cancelar">
+   <input type="button" value="boton desactivado" disabled>
+    </form>
+</body>
+</html>
